@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(neonbrand.jpg);
+	background-color: #cccccc;
+	/*height: 600px;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	/*position: relative;*/
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.col{
+	/*display: block;*/
+	background: black;
+	height: 70px;
+	color: white;
+}
+
+.wl ul{
+
+	position: relative;
+	top: -60px;
+	right: 10px;
+	display: flex;
+	float: right;
+	
+}
+
+li{
+	cursor: pointer;
+	/*float:right;*/
+	list-style: none;
+	padding: 8px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+li.n:hover{
+	background: rgba(255,255,255,0.2);
+	outline: none;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+}
+
+li.d{
+	border: 1px solid #bfbfbf;
+	border-bottom: none;
+	cursor: auto;
+}
+
+.col h1{
+	/*text-align: left;*/
+	font-size: 60px;
+	font-family : "Lucida Console";
+	margin: 1px;
+}
+
+.cl{
+	background: rgba(255,255,255,0.6);
+	margin-right: 35%;
+	padding: 20px;
+	color: rgb(25,67,105);
+	font-weight: bold;
+	text-align: justify;
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 0%;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	}
+
+.call{
+	padding: 20px;
+	height: 400px;
+	width: 300px;
+	/*border-radius: 5px;*/
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0 3px 10px, 0 3px 10px;
+	color: #fff;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	position: absolute;
+	top: 20%;
+	left: 65%;
+	/*transform: translate(50%, -50%);*/
+	box-sizing: border-box;
+}
+
+.call h1{
+	text-align: center;
+	padding-top: 40px;
+}
+
+img{
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	border-radius: 50%;
+}
+
+.fr{
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.call input{
+	width: 250px;
+}
+
+.call input[type=text], input[type=password]
+{
+	padding: 0px;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	font-size: 15px;
+	width: 
+}
+
+.call input[type=submit]
+{
+	border: none;
+	outline: none;
+	padding: 8px;
+	margin-top: 10px;
+	background: red;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.call input[type=submit]:hover
+{
+	background: gray;
+	color: white;
+}
+
+.call a{
+	text-decoration: none;
+	line-height: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.call a:hover{
+	text-decoration: none;
+	color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
+
